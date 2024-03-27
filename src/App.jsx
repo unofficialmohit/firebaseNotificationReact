@@ -26,7 +26,10 @@ function App() {
     notify();
   },[data])
   return (
-    <div><Toaster/></div>
+    <div>
+      <Toaster/>
+      <h1>This is a Test App, It will recieve Notification from FireBase</h1>
+      </div>
   )
 }
 
