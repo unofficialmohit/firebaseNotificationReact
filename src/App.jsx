@@ -8,7 +8,7 @@ function App() {
   function ToastDisplay(){
     return(
       <div style={{display:"flex"}}>
-        <div><img src={data?.icon} width={"100px"}></img></div>
+        {data?.icon && <div><img src={data?.icon} width={"100px"}></img></div>}
         <div>
           <div>{data?.title}</div>
           <div>{data?.body}</div>
